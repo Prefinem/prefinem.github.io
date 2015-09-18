@@ -12,7 +12,7 @@ tagline: Designing from Experience
                 <span>{{ post.date | date_to_string }}</span>
             </header>
             <div class="excerpt">
-                <div>{{ post.content | truncatewords: 200 }}</div>
+                {{ post.excerpt}}
 
                 <a href="{{ post.url }}">Read Article</a>
             </div>
