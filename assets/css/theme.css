@@ -13,6 +13,17 @@ h1, h2 {
 h2 {
     font-size: 3em;
 }
+h3 {
+    border-bottom: 1px solid;
+}
+h4 {
+    font-size: 1.25em;
+    border-bottom: 1px solid;
+}
+h5 {
+    font-size: 1.15em;
+    border-bottom: 1px solid;
+}
 
 a:hover, a:focus {
     text-decoration: none;
