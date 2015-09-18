@@ -1,0 +1,14 @@
+permalink: /:categories/:year/:month/:day/:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter: pygments
+
+
+title : Unconventional Development
+tagline: Designing from Experience
+author :
+  name : William
+  email : prefinem@gmail.com
+  github : Prefinem
+
+production_url : http://prefinem.com
