@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,600italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    padding: 10em 0 1em;
+    text-align: center;
+    background-color: #000;
+    color: #848484;
+}
+
+.header > div {
+    padding-top: 5em;
+    font-size: 1.25em;
+}
