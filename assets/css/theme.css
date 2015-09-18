@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     background-color: #000;
     color: #BFBFBF;
+    margin-bottom: 2em;
 }
 
 .header > h1 {
