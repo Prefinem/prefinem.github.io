@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5 {
     font-weight: 300;
 }
 
+h2 {
+    font-size: 3em;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
 .header {
     padding: 10em 0 1em;
     text-align: center;
@@ -32,4 +40,13 @@ h1, h2, h3, h4, h5 {
 
 .header a {
     color: #BFBFBF;
+}
+
+header {
+    border-bottom: 1px solid;
+    margin-bottom: 1em;
+}
+
+.excerpt, .body {
+    font-size: 1.5em;
 }
