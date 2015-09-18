@@ -37,21 +37,23 @@ When developing an ORM, everything comes down to the four main operations.  Crea
 In ColdFusion (and other languages) we can create objects on the fly.  This is the basis of OOP (Object Oriented Programming).  For an ORM, we need an base object (bean) that will allow us to perform CRUD operations on and that can be extended in the future for other purposes (Models).  It is possible for creating an object that persists itself, but in doing so, you will have tightly bound the object to it's functionality.  With the IBOs, we were in the same situation although the IBO was passing the CRUD operations to the DAO's.  With our new ORM, we really only want one Class Object to do all the CRUD operations.  This is simpler, easier to extend and keeps memory usage down (one class instead of a class for every object):
 
 **IBO and DAO Pattern**
--BaseIBO
--BaseDAO
--UserIBO
--UserDAO
--CompanyIBO
--CompanyDAO
--AddressIBO
--AddressDAO
+
+* BaseIBO
+* BaseDAO
+* UserIBO
+* UserDAO
+* CompanyIBO
+* CompanyDAO
+* AddressIBO
+* AddressDAO
 
 **ORM Pattern**
--ORM Class
--ORM Bean
--- User Model
--- Company Model
--- Address Model
+
+* ORM Class
+* ORM Bean
+** User Model
+** Company Model
+** Address Model
 
 While we only save three loaded classes, if you extrapolate this to a real business application where you have hundreds of tables/models, you are saving yourself the equivalent number of loaded classes.  On top of that, for basic CRUD operations, we won't need model classes loaded so some objects will not require a Model class.
 
