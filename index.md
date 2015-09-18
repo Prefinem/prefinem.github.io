@@ -13,6 +13,7 @@ tagline: Designing from Experience
             </header>
             <div class="excerpt">
                 {{ post.content | truncatewords: 200 }}
+
                 <a href="{{ post.url }}">Read Article</a>
             </div>
         </article>
