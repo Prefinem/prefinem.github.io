@@ -10,7 +10,7 @@ SQL is something that I don't really enjoy.  When I first started programming, I
 
 -------
 
-This is the first post in a series to come of building an ORM (Object Relational Mapper) from Scratch.
+> This is the first post in a series to come of building an ORM (Object Relational Mapper) from Scratch.
 
 -------
 
