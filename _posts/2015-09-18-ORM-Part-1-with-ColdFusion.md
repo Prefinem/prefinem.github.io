@@ -51,9 +51,9 @@ In ColdFusion (and other languages) we can create objects on the fly.  This is t
 
 * ORM Class
 * ORM Bean
-** User Model
-** Company Model
-** Address Model
+    * User Model
+    * Company Model
+    * Address Model
 
 While we only save three loaded classes, if you extrapolate this to a real business application where you have hundreds of tables/models, you are saving yourself the equivalent number of loaded classes.  On top of that, for basic CRUD operations, we won't need model classes loaded so some objects will not require a Model class.
 
