@@ -184,3 +184,4 @@ Instead of just loading the first record into one bean, we will loop over all th
 Congrats!  You now can now retrieve records from the database all in a nice object which you can extend and apply other functions too instead of writing queries and getting back a result set;
 
 ###Part 2 Coming Soon
+
