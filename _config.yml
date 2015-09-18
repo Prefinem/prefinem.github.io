@@ -12,3 +12,5 @@ author :
   github : Prefinem
 
 production_url : http://prefinem.com
+
+excerpt_separator: <!--more-->

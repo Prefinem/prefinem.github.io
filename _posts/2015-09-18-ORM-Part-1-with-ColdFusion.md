@@ -4,7 +4,6 @@ category : orm
 tagline: "ORM Part 1"
 tags : [ORM, ColdFusion]
 title: ORM from Scratch, Part 1, with ColdFusion
-excerpt_separator: <!--more-->
 ---
 
 SQL is something that I don't really enjoy.  When I first started programming, I went through the normal process of learning a server sided language (PHP) and then learning how to store data in a database (MySQL).  This of course, done all on a shared hosting environment for only a couple of dollars a month and relatively straight forward.  I didn't know how to create databases, I used cPanel for that.  I didn't understand SQL, I had phpMyAdmin (which let's be honest, is a great tool).  I understood tables, rows and columns, but they were a hassle.  I didn't like my data being forced into a structure because of the software I was using.  So I ended up writing file store system, using large JSON files, directory trees and all sorts of other weird combination of things to store and save data.
