@@ -9,7 +9,9 @@ title: ORM from Scratch, Part 1, with ColdFusion
 SQL is something that I don't really enjoy.  When I first started programming, I went through the normal process of learning a server sided language (PHP) and then learning how to store data in a database (MySQL).  This of course, done all on a shared hosting environment for only a couple of dollars a month and relatively straight forward.  I didn't know how to create databases, I used cPanel for that.  I didn't understand SQL, I had phpMyAdmin (which let's be honest, is a great tool).  I understood tables, rows and columns, but they were a hassle.  I didn't like my data being forced into a structure because of the software I was using.  So I ended up writing file store system, using large JSON files, directory trees and all sorts of other weird combination of things to store and save data.
 
 -------
+
 This is the first post in a series to come of building an ORM (Object Relational Mapper) from Scratch.
+
 -------
 
 Over the years, I became more proficient at SQL and it was less of a hassle, but still an annoyance.  Then a few years ago I found [RedBeanPHP](http://www.redbeanphp.com/).  And in all of a sudden, I didn't have to worry about SQL, queries, or any of that.  RedBeanPHP can automatically create tables for you, and lets your program and models define the database.  This was exactly what I was looking for.  Years later, I still use RedBeanPHP for Rapid Prototyping applications because I don't know what my structure will look like at the end, and I don't need to.
