@@ -9,7 +9,7 @@
 		<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
 		<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
-		<title>Amazon Affliate Link</title>
+		<title>Amazon Affiliate Link</title>
 	</head>
 	<body>
 		<div id="root"></div>
@@ -26,7 +26,7 @@
 
 				return (
 					<div className="container font-sans antialiased mx-auto my-12">
-						<h1 className="text-xl">Amazon Affliate Link</h1>
+						<h1 className="text-xl">Amazon Affiliate Link</h1>
 						<div className="p-2 border-solid border-grey-200 border rounded bg-gray-100 shadow">
 							<input
 								type="text"
@@ -37,7 +37,7 @@
 								onChange={(event) => setUrl(event.target.value)}
 							/>
 							<div className="mt-4">
-								<h3>Generated Affliate Link</h3>
+								<h3>Generated Affiliate Link</h3>
 								<div id="results"><a class="underline text-blue-500" href={getUrl(url)} target="_blank">{getUrl(url)}</a></div>
 							</div>
 						</div>
